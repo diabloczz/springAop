@@ -1,5 +1,8 @@
 package com.czz.proxyDemo.proxy;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MyMove implements Movable{
 
 	@Override
